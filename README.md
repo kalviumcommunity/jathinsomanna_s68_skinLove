@@ -1,36 +1,83 @@
-# Welcome to your Lovable project
+# 🧴 Skincare E-Commerce Platform – MERN Stack
 
-## Project info
+## 📦 Overview
 
-**URL**: https://lovable.dev/projects/56fbe383-c62c-4fde-ad14-cf3cefc060dc
+This is a full-stack skincare e-commerce application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). The platform allows users to register, browse and search for skincare products, manage their cart, and place orders. Admins and sellers can manage their product listings and view orders through a dashboard.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Tech Stack
 
-**Use Lovable**
+### 🖥️ Frontend:
+- **React.js** – Interactive user interface
+- **Tailwind CSS** – Responsive, utility-first styling
+- **React Router** – Navigation and routing
+- **Axios** – API communication
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/56fbe383-c62c-4fde-ad14-cf3cefc060dc) and start prompting.
+### 🔧 Backend:
+- **Node.js** + **Express.js** – RESTful APIs
+- **MongoDB** – NoSQL database
+- **Mongoose** – Object Data Modeling (ODM)
+- **JWT** – Secure token-based authentication
+- **bcrypt.js** – Password hashing
+- **Multer** – Image upload handling
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🎯 Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 👤 User Functionality:
+- Sign Up / Log In / Forgot Password
+- Browse skincare products by type and concern
+- Product detail pages with ingredients and tags
+- Add to cart, update quantity, remove items
+- Checkout and payment flow (Stripe/PayPal)
+- Order history and profile management
+- Save shipping/billing addresses
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🛒 Seller/Admin Functionality:
+- Add/edit/delete skincare products
+- Upload product images using Multer
+- View all orders placed by users
+- Role-based authentication (User, Seller, Admin)
 
-Follow these steps:
+### ⚙️ Admin Dashboard:
+- View total users, orders, and products
+- Manage all listed products and order status
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🔐 Security Features:
+- HTTPS communication
+- JWT-based route protection
+- Role-based access control
+- XSS and CSRF protection
+- Rate limiting
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
+## 📋 GitHub Project Management (Proof of Work)
 
-# Step 3: Install the necessary dependencies.
-npm i
+To meet the project requirement:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+> **"Manage all daily tasks and project milestone progress via GitHub Projects (submit proof of at least 10 entries spanning more than 10 days)"**
+
+✅ GitHub Projects was used to organize all features and tasks using a Kanban board.  
+✅ Tasks were tracked for over **10 days** with detailed entries across key milestones.
+
+| Date       | Task/Concept Implemented                           | Milestone                        |
+|------------|----------------------------------------------------|----------------------------------|
+| May 10     | Initialized GitHub Project board                   | Project Setup                    |
+| May 11     | Designed login/signup UI with validation           | Milestone 2 – Auth UI            |
+| May 12     | Created JWT-based auth backend                     | User Authentication              |
+| May 13     | Integrated login with backend                      | Auth Integration                 |
+| May 14     | Designed product cards and homepage UI             | Milestone 8 – Home Page          |
+| May 15     | Created CRUD APIs for product management           | Product API – Milestone 9        |
+| May 16     | Fetched product data from backend to frontend      | Product Integration              |
+| May 17     | Developed Cart APIs and frontend UI                | Cart Management                  |
+| May 18     | Added image upload using Multer                    | Seller Product Upload            |
+| May 19     | Created order flow and stored order in DB          | Order Management                 |
+| May 20     | Built admin dashboard for order/product overview   | Admin Dashboard                  |
+
+> 📎 Proof of these entries is available on the GitHub Projects board and screenshots (if required for submission).
+
+---
+
+
